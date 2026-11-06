@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/yemot.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    { "source": "/yemot", "destination": "/api/yemot" }
+  ]
+}
