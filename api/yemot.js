@@ -22,7 +22,7 @@ function yemotRead(text, options = {}) {
   const maxDigits = options.maxDigits || 1;
   const timeout = options.timeout || 7;
   const voice = options.voice || "t-";
-  return `read=${voice}${safe}=no, no, 1, 1, ${maxDigits}, Digits, no, no, , , ${timeout}, ${options.endKey || "hash"}`;
+  return `read=${voice}${safe}=wm_nav,no,1,1,${maxDigits},Digits,no,no,,,${timeout},Ok`;
 }
 
 export default async function handler(req, res) {
