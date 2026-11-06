@@ -1,0 +1,12 @@
+{
+  "name": "yemot-lampline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Vercel-compatible AI conversation adapter for the Yemot HaMashiach IVR platform",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/yemot.js"
+  }
+}
